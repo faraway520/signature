@@ -159,7 +159,7 @@ function addClick(x, y, dragging) {
 
 function handwriting() {
   //canvas.width = canvas.width; // Clears the canvas
-  context.strokeStyle = "#000000";
+  context.strokeStyle = "#868686";
   context.lineJoin = "round";
   context.lineWidth = 2;
   while (clickX.length > 0) {
