@@ -240,3 +240,9 @@ window.addEventListener('load', function() {
   document.addEventListener('touchmove', touchMoveHandler, false);
 
 });
+
+
+
+document.body.addEventListener('touchmove', function (e) {
+  e.preventDefault(); //以阻止默認的方式，禁止回彈
+}, {passive: false});
